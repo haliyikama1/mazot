@@ -6,7 +6,7 @@ export default function Whatsapp(){
     return(
         <>
         <div class={styles.container}>
-        <Link href="https://www.google.com">
+        <Link href="https://wa.me/905525673636?text=Merhabalar%20mazot%20siparişi%20vermek%20için%20sizlere%20yazıyorum.">
             <FaWhatsapp size={50} color="green"/>
         </Link>
 
