@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1%;
+    margin: auto;
+    margin-top: 3%;
+    width: 85%;
+    background-image: url(/background.png);  
+    background-size: cover; /* Resmin alanı kaplamasını sağlar */
+    background-position: center; /* Resmi ortalar */
+    border-radius: 1%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    height: 900vh;
+}
+
+
+
+.header h1, .header h2, .header h3, .header h4{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 900;
+    width: 70%;
+    margin: auto;
+    font-size: 3rem;
+    font-style: normal;
+    color: rgb(25, 25, 54);
+    padding-top: 3%;
+}
+.imgcontainer {
+    position: relative;
+    width: 50%; /* Ensure it takes full width of the grid cell */
+    height: 400px; /* Set a fixed height for the image container */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    overflow: hidden; /* Ensure no overflow */
+    justify-content: center;
+    margin: auto;
+}
+
+.content{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgba(255, 255, 255, 0.686);
+    margin: auto;
+    width: 85%;
+    margin-top: 3%;
+    border-radius: 2%;
+    font-size: 1.50rem;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+    padding-right: 3%;
+    padding-left: 3%;
+    
+}
+
+
+@media (max-width: 1080px){
+    .container{
+        display: block;
+        width: 82%;
+    height: auto;
+    }
+    .header h1, .header h2, .header h3, .header h4{
+        width: 90%;
+        font-size: 2.3rem;
+    }
+    .content{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    .imgcontainer{
+        width: 100%;
+    }
+}

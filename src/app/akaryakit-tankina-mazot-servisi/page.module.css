@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    width: 85%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 3%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.imgContainer {
+    position: relative;
+    width: 55%;
+    height: 65vh;
+    overflow: hidden;
+}
+
+.imgContainer img {
+    transition: transform 0.5s ease;
+}
+
+.imgContainer:hover img {
+    transform: scale(1.1);
+}
+
+.content {
+    flex: 1;
+    padding: 2rem;
+    line-height: 1.8;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+.content h1 {
+    font-size: 2em;
+    color: #1A5276;
+    margin-bottom: 0.5rem;
+}
+
+.content h2 {
+    font-size: 1.75em;
+    color: #2874A6;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.content h3 {
+    font-size: 1.5em;
+    color: #5499C7;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.content ul, .content ol {
+    padding-left: 1.5rem;
+    margin: 1rem 0;
+}
+
+.content li {
+    margin-bottom: 0.5rem;
+}
+
+.content p {
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.content strong {
+    color: #333;
+}
+
+.content a {
+    color: #1A5276;
+    text-decoration: underline;
+}
+
+.content a:hover {
+    color: #2874A6;
+    text-decoration: none;
+}
+@media (max-width:1080px){
+    .container {
+        display: flex;
+        min-height: 100vh;
+        width: 95%;
+        margin: auto;
+        flex-direction: column;
+        margin-top: 3%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        background-color: #f9f9f9;
+    }
+    .imgContainer{
+        width: 84%;
+        height: 55vh;
+        margin-top: 15%;
+    }
+    .container h1{
+        font-size: 2em;
+    }
+}

@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    position: fixed;
+    color: red;
+    margin: auto;
+    top: 35%;
+    transform: translateY(-50%);
+    padding-left: 3%;
+    z-index: 111111;
+}
+
+@media (max-width: 1080px){
+    .container{
+        top: 65%
+    }
+}
