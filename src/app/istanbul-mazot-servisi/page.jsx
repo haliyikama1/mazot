@@ -29,7 +29,7 @@ export default function İstanbulMazotServisi() {
 
                     <p>Yakıt ihtiyaçları her an ortaya çıkabilir ve zamanında yakıt temini, işletmelerin operasyonel verimliliğini doğrudan etkiler. Bizimle çalışarak şu avantajlara sahip olabilirsiniz:</p>
                     <ul>
-                        <li><strong>Hızlı Teslimat:</strong> İstanbul'un her yerine, ihtiyacınız olduğunda zamanında yakıt teslimatı.</li>
+                        <li><strong>Hızlı Teslimat:</strong> İstanbul&apos;un her yerine, ihtiyacınız olduğunda zamanında yakıt teslimatı.</li>
                         <li><strong>Kalite ve Güven:</strong> Yüksek kaliteli yakıtla araç ve makinelerinizin performansını destekleriz.</li>
                         <li><strong>Uygun Fiyatlar:</strong> İşletmeniz için bütçe dostu fiyatlarla kaliteli yakıt çözümleri sunarız.</li>
                     </ul>
@@ -60,7 +60,7 @@ export default function İstanbulMazotServisi() {
                     <h2>Sıkça Sorulan Sorular</h2>
 
                     <p><strong>Hangi bölgelere hizmet veriyorsunuz?</strong><br />
-                    İstanbul'un her ilçesine hızlı ve güvenilir yakıt teslimatı yapıyoruz.</p>
+                    İstanbul&apos;un her ilçesine hızlı ve güvenilir yakıt teslimatı yapıyoruz.</p>
 
                     <p><strong>Hizmet saatleriniz nelerdir?</strong><br />
                     İhtiyacınıza göre 7/24 hizmet sunarak acil yakıt ihtiyaçlarınızı karşılıyoruz.</p>
