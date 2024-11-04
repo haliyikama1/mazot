@@ -14,10 +14,10 @@ export default function SantiyeMazotServisi() {
             <div className={styles.container}>
             <div className={styles.imgContainer}>
                         <Image
-                            src={'/jeneratöre-mazot.jpg'}
+                            src={'/mazot-5.jpg'}
                             layout='fill'
                             objectFit='cover'
-                            alt='Mazot Teslimatı Görseli'
+                            alt='Şantiye Mazot Teslimatı Görseli'
                         />
                     </div>
                 <div className={styles.content}>

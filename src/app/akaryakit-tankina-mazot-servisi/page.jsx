@@ -14,10 +14,10 @@ export default function AkaryakitTankinaMazotServisi() {
             <div className={styles.container}>
                    <div className={styles.imgContainer}>
                         <Image
-                            src={'/jeneratöre-mazot.jpg'}
+                            src={'/yakıt-tankı.jpg'}
                             layout='fill'
                             objectFit='cover'
-                            alt='Mazot Teslimatı Görseli'
+                            alt='Yakıt tankı mazot Teslimatı Görseli'
                         />
                     </div>
                 <div className={styles.content}>

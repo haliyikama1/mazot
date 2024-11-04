@@ -17,7 +17,7 @@ export default function İstanbulMazotServisi() {
                         src={'/mazot-servisi.jpg'}
                         layout='fill'
                         objectFit='cover'
-                        alt='Mazot Teslimatı Görseli'
+                        alt='Mazot Servisi Görseli'
                     />
                 </div>
                 <div className={styles.content}>

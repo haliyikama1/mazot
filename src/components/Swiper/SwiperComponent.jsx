@@ -14,9 +14,9 @@ export default function SwiperComponent() {
 
 
     const nextImage = () => {
-        if(x < 5){
+        if(x < 4){
             setX(x+1)
-        }else if( x === 5){
+        }else if( x === 4){
             setX(1)
         }    
     }
@@ -24,7 +24,7 @@ export default function SwiperComponent() {
         if(x > 1){
             setX(x-1)
         }else if( x === 1){
-            setX(5)
+            setX(4)
         }    
     }
     

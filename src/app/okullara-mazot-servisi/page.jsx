@@ -14,10 +14,10 @@ export default function OkullaraMazotServisi() {
             <div className={styles.container}>
             <div className={styles.imgContainer}>
                         <Image
-                            src={'/jeneratöre-mazot.jpg'}
+                            src={'/okul-mazot.jpg'}
                             layout='fill'
                             objectFit='cover'
-                            alt='Mazot Teslimatı Görseli'
+                            alt='Okullara mazot Teslimatı Görseli'
                         />
                     </div>
                 <div className={styles.content}>

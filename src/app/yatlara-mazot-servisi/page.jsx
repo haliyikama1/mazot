@@ -14,10 +14,10 @@ export default function YatlaraMazotServisi() {
             <div className={styles.container}>
             <div className={styles.imgContainer}>
                         <Image
-                            src={'/jeneratöre-mazot.jpg'}
+                            src={'/yat.jpg'}
                             layout='fill'
                             objectFit='cover'
-                            alt='Mazot Teslimatı Görseli'
+                            alt='Yat Mazot Teslimatı Görseli'
                         />
                     </div>
                 <div className={styles.content}>
