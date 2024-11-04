@@ -6,7 +6,7 @@ export default function Phone(){
     return(
         <>
         <div class={styles.container}>
-        <Link href="tel:905525673636">
+        <Link href="tel:+905525673636">
             <FiPhoneCall     size={50} color="black"/>
         </Link>
 
