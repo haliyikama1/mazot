@@ -53,9 +53,15 @@ export default function Navbar() {
                 <div className={styles.mobileView} onClick={clickEvent}>{menü ? (<> <IoMdClose size={20} /> </>) : (<> <RiMenu2Fill size={20}/> </>)}</div>
                 <div style={{display: `${open}`}} class={styles.open}>
                     <ul>
-                        <li>Ana Sayfa</li>
-                        <li>Hakkımızda</li>
-                        <li>İletişim</li>
+                        <li>   <Link href="/">
+                Ana Sayfa
+              </Link></li>
+                        <li> <Link href="/hakkimizda">
+                Hakkımızda
+              </Link></li>
+                        <li> <Link href="/iletisim">
+                İletişim
+              </Link></li>
                         <li>
                           <p onClick={turnHizmetler} class={styles.bune} >Hizmetler {hizmetler ? (<FaArrowUp size={10} />) : (<FaArrowDown size={10} />)}</p>
                           
