@@ -18,8 +18,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "ACT Akaryakıt",
-  description: "Mazot satın almak için güvenilir ve kaliteli adres",
+  title: "ACT Akaryakıt | Acil Mazot",
+  description: "7/24 mazot servisi. Mazot satın almak için güvenilir ve kaliteli adres.",
 };
 
 export default function RootLayout({ children }) {
