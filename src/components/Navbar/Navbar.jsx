@@ -53,13 +53,13 @@ export default function Navbar() {
                 <div className={styles.mobileView} onClick={clickEvent}>{menü ? (<> <IoMdClose size={20} /> </>) : (<> <RiMenu2Fill size={20}/> </>)}</div>
                 <div style={{display: `${open}`}} class={styles.open}>
                     <ul>
-                        <li>   <Link href="/">
-                Ana Sayfa
-              </Link></li>
-                        <li> <Link href="/hakkimizda">
+                        <li onClick={clickEvent}>   <Link href="/">
+                       Ana Sayfa
+                        </Link></li>
+                        <li onClick={clickEvent}> <Link href="/hakkimizda">
                 Hakkımızda
               </Link></li>
-                        <li> <Link href="/iletisim">
+                        <li onClick={clickEvent}> <Link href="/iletisim">
                 İletişim
               </Link></li>
                         <li>
@@ -68,33 +68,33 @@ export default function Navbar() {
                           {hizmetler ? 
                           <>
                           <ul class={styles.ahahah}>
-                            <li>
+                            <li onClick={clickEvent}>
                               <Link href="/istanbul-mazot-servisi">
                               İstanbul Mazot Servisi
                               </Link>
                             </li>
-                            <li>
+                            <li onClick={clickEvent}>
                               <Link href="/jeneratore-mazot-servisi">
                                 Jeneratör Mazot Servisi
                               </Link>
                             </li>
-                            <li>
+                            <li onClick={clickEvent}>
                               <Link href="/akaryakit-tankina-mazot-servisi">
                               Akaryakıt Tankına Mazot Servisi
                               </Link>
                             </li>
-                            <li>
+                            <li onClick={clickEvent}>
                             <Link href="/akaryakit-tanki-kurulum">
                               Akaryakıt Tankı Kurulum ve Temizleme Hizmeti
                             </Link>
                             </li>
-                            <li>
+                            <li onClick={clickEvent}>
                             <Link href="/santiyelere-mazot-servisi">
                               Şantiyelere Mazot Servisi
                             </Link>
                               </li>
                      
-                            <li>
+                            <li onClick={clickEvent}>
                             <Link href="/okullara-mazot-servisi">
                               Okullara Mazot Servisi
                             </Link>  
@@ -104,7 +104,7 @@ export default function Navbar() {
                               Yatlara Mazot Servisi
                             </Link>  
                             </li>
-                          <li><span class={styles.spa}>      <Link href="/otellere-mazot-servisi">
+                          <li onClick={clickEvent}><span class={styles.spa}>      <Link href="/otellere-mazot-servisi">
                               Otellere Mazot Servisi
                             </Link>  </span></li>
                           </ul>
